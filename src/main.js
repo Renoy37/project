@@ -1,4 +1,24 @@
-// Function to handle hamburger menu toggle
+// // Function to handle hamburger menu toggle
+// function handleHamburger() {
+//   console.log("handleHamburger function called");
+//   const hamburger = document.querySelector(".hamburger");
+//   const listElmsContain = document.querySelector(".list-elms-contain");
+
+//   //showing the hamburger menu with Toggle 'active' class on hamburger and navigation menu
+//   hamburger.addEventListener("click", () => {
+//     hamburger.classList.toggle("active");
+//     listElmsContain.classList.toggle("active");
+//   });
+
+//   // Closing the navigation menu when any menu item is clicked
+//   document.querySelectorAll(".list-elms").forEach((list) =>
+//     list.addEventListener("click", () => {
+//       hamburger.classList.remove("active");
+//       listElmsContain.classList.remove("active");
+//     })
+//   );
+// }
+
 function handleHamburger() {
   console.log("handleHamburger function called");
   const hamburger = document.querySelector(".hamburger");
