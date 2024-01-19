@@ -385,10 +385,10 @@ body {
     .hamburger.active .bar:nth-child(3) {
       transform: translateY(-8px) rotate(-45deg);
     }
-  .list-elms-contain.active {
-    /* display: none; */
+  .list-elms-contain {
+    display: none;
     position: fixed;
-    /* left: -100%; */
+    left: -100%;
     top: 70px;
     gap: 0;
     flex-direction: column;
@@ -402,9 +402,9 @@ body {
   .list-elms {
     margin: 16px 0;
   }
-  /* .list-elms.active {
+  .list-elms.active {
     left: 0;
-  } */
+  }
 
   .side-nav {
     margin: 20px;
