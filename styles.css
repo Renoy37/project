@@ -339,7 +339,6 @@ body {
 
 .subsciption-text {
   text-align: center;
-  /* display: block; */
 }
 .privacy {
   color: #2980b9;
@@ -383,65 +382,65 @@ body {
     .hamburger.active .bar:nth-child(3) {
       transform: translateY(-8px) rotate(-45deg);
     }
-  .list-elms-contain {
-    display: none;
-    position: absolute;
-    left: -100%;
-    top: 70px;
-    gap: 0;
-    flex-direction: column;
-    background-color: var(--background-nav);
-    width: 100%;
-    padding: 10px;
-    text-align: center;
-    transition: 0.3s;
-    z-index: 1;
-  }
-  .list-elms {
-    margin: 16px 0;
-  }
-  .list-elms.active {
-    left: 0;
-  }
+    .list-elms-contain {
+      display: none;
+      position: absolute;
+      left: -100%;
+      top: 70px;
+      gap: 0;
+      flex-direction: column;
+      background-color: var(--background-nav);
+      width: 100%;
+      padding: 10px;
+      text-align: center;
+      transition: 0.3s;
+      z-index: 1;
+    }
+    .list-elms {
+      margin: 16px 0;
+    }
+    .list-elms.active {
+      left: 0;
+    }
 
-  .side-nav {
-    margin: 20px;
-    width: 100%;
-  }
+    .side-nav {
+      margin: 20px;
+      width: 100%;
+    }
 
-  #news-categories {
-    grid-template-columns: 1fr;
-  }
+    #news-categories {
+      grid-template-columns: 1fr;
+    }
 
-  #article-container h3 {
-    font-size: small;
-  }
+    #article-container h3 {
+      font-size: small;
+    }
 
-  .topic-cards {
-    display: flex;
-    flex-direction: column;
-    margin: 30px;
-  }
-  .cardy {
-    max-width: 400px;
-    max-height: 550px;
-  }
+    .topic-cards {
+      display: flex;
+      flex-direction: column;
+      margin: 30px;
+    }
+    .cardy {
+      max-width: 400px;
+      max-height: 550px;
+    }
 
-.cardy-title {
-  font-size: 1rem;
-}
+    .cardy-title {
+      font-size: 1rem;
+    }
 
-.cardy-image {
-  width: 100%;
-  max-height: 200px;
-  object-fit: cover;
-  border-radius: 4px;
-}
+    .cardy-image {
+      width: 100%;
+      max-height: 200px;
+      object-fit: cover;
+      border-radius: 4px;
+    }
 
-.cardy-description {
-  font-size: 0.9rem;
-  color: #555;
-}
+    .cardy-description {
+      font-size: 0.9rem;
+      color: #555;
+    }
 
 }
 
