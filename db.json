@@ -1,0 +1,24 @@
+{
+  "subscribers": [
+    {
+      "id": 1,
+      "email": "example1@example.com"
+    },
+    {
+      "id": 2,
+      "email": "example2@example.com"
+    },
+    {
+      "email": "email 1",
+      "id": 3
+    },
+    {
+      "email": "examle2@email.com",
+      "id": 4
+    },
+    {
+      "email": "example2@email.com",
+      "id": 5
+    }
+  ]
+}
