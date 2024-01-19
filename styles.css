@@ -385,7 +385,7 @@ body {
     }
   .list-elms-contain {
     display: none;
-    position: fixed;
+    position: absolute;
     left: -100%;
     top: 70px;
     gap: 0;
