@@ -385,26 +385,25 @@ body {
     .hamburger.active .bar:nth-child(3) {
       transform: translateY(-8px) rotate(-45deg);
     }
-  .list-elms-contain {
-    display: none;
-    position: absolute;
+  .list-elms-contain.active {
+    /* display: none; */
+    position: fixed;
     /* left: -100%; */
     top: 70px;
     gap: 0;
-    color: #e74c3c;
     flex-direction: column;
     background-color: var(--background-nav);
     width: 100%;
     text-align: center;
     transition: 0.3s;
-    z-index: 100;
+    z-index: 1000;
   }
   .list-elms {
     margin: 16px 0;
   }
-  .list-elms.active {
+  /* .list-elms.active {
     left: 0;
-  }
+  } */
 
   .side-nav {
     margin: 20px;
