@@ -65,7 +65,6 @@ body {
   flex-direction: column;
   cursor: pointer;
   padding: 10px;
-  /* display: none;  */
 }
 
 .bar {
