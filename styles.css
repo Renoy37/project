@@ -337,6 +337,19 @@ body {
   transition: color 0.3s ease-in-out;
 }
 
+.subsciption-text {
+  text-align: center;
+  /* display: block; */
+}
+.privacy {
+  color: #2980b9;
+  text-decoration: underline;
+}
+.privacy:hover {
+  cursor: default;
+  color: #3498db;
+  text-decoration: underline;
+}
 
 /* Default styles for larger screens */
 
