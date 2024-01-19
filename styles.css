@@ -150,7 +150,6 @@ body {
 
 .all-news-container {
   display: flex;
-  /* display: grid; */
   margin:0 40px;
 }
 
