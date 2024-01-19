@@ -351,8 +351,6 @@ body {
   text-decoration: underline;
 }
 
-/* Default styles for larger screens */
-
 /* Tablet styles */
 @media only screen and (max-width: 800px) {
   .all-news-container {
