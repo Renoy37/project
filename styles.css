@@ -388,10 +388,12 @@ body {
       padding: 10px;
       text-align: center;
       transition: 0.3s;
-      z-index: 1;
+      z-index: 100;
     }
     .list-elms {
       margin: 16px 0;
+      padding: 10px;
+      /* display: none; */
     }
     .list-elms.active {
       left: 0;
@@ -441,8 +443,11 @@ body {
 /* Mobile styles */
 @media only screen and (max-width: 480px) {
   .list-elms-contain {
-    flex-direction: column;
+    /* flex-direction: column; */
     align-items: center;
+    padding: 3px;
+    font-size: small;
+    /* display: none; */
   }
 
   .hamburger {
@@ -518,5 +523,7 @@ body {
     color: #555;
     max-height: 600px;
   }
+
+  
 }
 
