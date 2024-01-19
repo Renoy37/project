@@ -25,15 +25,14 @@ To run the website locally, follow these steps:
 
 Clone the repository:
 
-bash
-Copy code
-git clone [repository_url]
+run git clone [repository_url]
 Open the index.html file in a web browser.
 
-Usage
-Navigation:
+# Usage
 
-# Click on the navigation links (Home, Trending, Browse, Subscribe) to access different sections of the website.
+# Navigation:
+
+Click on the navigation links (Home, Trending, Browse, Subscribe) to access different sections of the website.
 
 .The hamburger icon provides a toggle for the navigation menu on smaller screens.
 
